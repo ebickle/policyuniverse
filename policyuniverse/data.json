@@ -50195,7 +50195,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/associateroletogroup-put.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "AssociateServiceRoleToAccount": {
         "aws_action_groups": [
@@ -50208,7 +50214,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/associateserviceroletoaccount-put.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateConnectorDefinition": {
         "aws_action_groups": [
@@ -50219,12 +50227,14 @@
           "aws:RequestTag/${TagKey}",
           "aws:TagKeys"
         ],
-        "description": "Grants permission to create  a connector definition.",
+        "description": "Grants permission to create a connector definition.",
         "docs": {
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createconnectordefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateConnectorDefinitionVersion": {
         "aws_action_groups": [
@@ -50239,7 +50249,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createconnectordefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition"
+        ]
       },
       "CreateCoreDefinition": {
         "aws_action_groups": [
@@ -50255,7 +50271,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createcoredefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateCoreDefinitionVersion": {
         "aws_action_groups": [
@@ -50270,7 +50288,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createcoredefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition"
+        ]
       },
       "CreateDeployment": {
         "aws_action_groups": [
@@ -50285,7 +50309,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createdeployment-post.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "CreateDeviceDefinition": {
         "aws_action_groups": [
@@ -50301,7 +50331,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createdevicedefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateDeviceDefinitionVersion": {
         "aws_action_groups": [
@@ -50316,7 +50348,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createdevicedefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition"
+        ]
       },
       "CreateFunctionDefinition": {
         "aws_action_groups": [
@@ -50332,7 +50370,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createfunctiondefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateFunctionDefinitionVersion": {
         "aws_action_groups": [
@@ -50347,7 +50387,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createfunctiondefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition"
+        ]
       },
       "CreateGroup": {
         "aws_action_groups": [
@@ -50363,7 +50409,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/creategroup-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateGroupCertificateAuthority": {
         "aws_action_groups": [
@@ -50378,7 +50426,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/creategroupcertificateauthority-post.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "CreateGroupVersion": {
         "aws_action_groups": [
@@ -50393,7 +50447,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/creategroupversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "CreateLoggerDefinition": {
         "aws_action_groups": [
@@ -50409,7 +50469,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createloggerdefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateLoggerDefinitionVersion": {
         "aws_action_groups": [
@@ -50424,7 +50486,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createloggerdefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition"
+        ]
       },
       "CreateResourceDefinition": {
         "aws_action_groups": [
@@ -50440,7 +50508,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createresourcedefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateResourceDefinitionVersion": {
         "aws_action_groups": [
@@ -50455,7 +50525,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createresourcedefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition"
+        ]
       },
       "CreateSoftwareUpdateJob": {
         "aws_action_groups": [
@@ -50468,7 +50544,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createsoftwareupdatejob-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateSubscriptionDefinition": {
         "aws_action_groups": [
@@ -50484,7 +50562,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createsubscriptiondefinition-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "CreateSubscriptionDefinitionVersion": {
         "aws_action_groups": [
@@ -50499,7 +50579,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/createsubscriptiondefinitionversion-post.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition"
+        ]
       },
       "DeleteConnectorDefinition": {
         "aws_action_groups": [
@@ -50514,7 +50600,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deleteconnectordefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition"
+        ]
       },
       "DeleteCoreDefinition": {
         "aws_action_groups": [
@@ -50529,7 +50621,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deletecoredefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition"
+        ]
       },
       "DeleteDeviceDefinition": {
         "aws_action_groups": [
@@ -50544,7 +50642,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deletedevicedefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition"
+        ]
       },
       "DeleteFunctionDefinition": {
         "aws_action_groups": [
@@ -50559,7 +50663,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deletefunctiondefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition"
+        ]
       },
       "DeleteGroup": {
         "aws_action_groups": [
@@ -50574,7 +50684,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deletegroup-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "DeleteLoggerDefinition": {
         "aws_action_groups": [
@@ -50589,7 +50705,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deleteloggerdefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition"
+        ]
       },
       "DeleteResourceDefinition": {
         "aws_action_groups": [
@@ -50604,7 +50726,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deleteresourcedefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition"
+        ]
       },
       "DeleteSubscriptionDefinition": {
         "aws_action_groups": [
@@ -50619,7 +50747,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/deletesubscriptiondefinition-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition"
+        ]
       },
       "DisassociateRoleFromGroup": {
         "aws_action_groups": [
@@ -50634,7 +50768,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/disassociaterolefromgroup-delete.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "DisassociateServiceRoleFromAccount": {
         "aws_action_groups": [
@@ -50647,7 +50787,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/disassociateservicerolefromaccount-delete.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "GetAssociatedRole": {
         "aws_action_groups": [
@@ -50663,7 +50805,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getassociatedrole-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "GetBulkDeploymentStatus": {
         "aws_action_groups": [
@@ -50679,7 +50827,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getbulkdeploymentstatus-get.html"
-        }
+        },
+        "required_resource_types": [
+          "bulkDeployment"
+        ],
+        "resource_types": [
+          "bulkDeployment"
+        ]
       },
       "GetConnectivityInfo": {
         "aws_action_groups": [
@@ -50693,7 +50847,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getconnectivityinfo-get.html"
-        }
+        },
+        "required_resource_types": [
+          "connectivityInfo"
+        ],
+        "resource_types": [
+          "connectivityInfo"
+        ]
       },
       "GetConnectorDefinition": {
         "aws_action_groups": [
@@ -50709,7 +50869,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getconnectordefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition"
+        ]
       },
       "GetConnectorDefinitionVersion": {
         "aws_action_groups": [
@@ -50723,7 +50889,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getconnectordefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition",
+          "connectorDefinitionVersion"
+        ]
       },
       "GetCoreDefinition": {
         "aws_action_groups": [
@@ -50739,7 +50912,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getcoredefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition"
+        ]
       },
       "GetCoreDefinitionVersion": {
         "aws_action_groups": [
@@ -50755,7 +50934,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getcoredefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition",
+          "coreDefinitionVersion"
+        ]
       },
       "GetDeploymentStatus": {
         "aws_action_groups": [
@@ -50769,7 +50955,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getdeploymentstatus-get.html"
-        }
+        },
+        "required_resource_types": [
+          "deployment"
+        ],
+        "resource_types": [
+          "deployment",
+          "group"
+        ]
       },
       "GetDeviceDefinition": {
         "aws_action_groups": [
@@ -50785,7 +50978,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getdevicedefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition"
+        ]
       },
       "GetDeviceDefinitionVersion": {
         "aws_action_groups": [
@@ -50799,7 +50998,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getdevicedefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition",
+          "deviceDefinitionVersion"
+        ]
       },
       "GetFunctionDefinition": {
         "aws_action_groups": [
@@ -50815,7 +51021,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getfunctiondefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition"
+        ]
       },
       "GetFunctionDefinitionVersion": {
         "aws_action_groups": [
@@ -50829,7 +51041,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getfunctiondefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition",
+          "functionDefinitionVersion"
+        ]
       },
       "GetGroup": {
         "aws_action_groups": [
@@ -50845,7 +51064,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getgroup-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "GetGroupCertificateAuthority": {
         "aws_action_groups": [
@@ -50859,7 +51084,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getgroupcertificateauthority-get.html"
-        }
+        },
+        "required_resource_types": [
+          "certificateAuthority"
+        ],
+        "resource_types": [
+          "certificateAuthority",
+          "group"
+        ]
       },
       "GetGroupCertificateConfiguration": {
         "aws_action_groups": [
@@ -50875,7 +51107,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getgroupcertificateconfiguration-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "GetGroupVersion": {
         "aws_action_groups": [
@@ -50889,7 +51127,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getgroupversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group",
+          "groupVersion"
+        ]
       },
       "GetLoggerDefinition": {
         "aws_action_groups": [
@@ -50905,7 +51150,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getloggerdefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition"
+        ]
       },
       "GetLoggerDefinitionVersion": {
         "aws_action_groups": [
@@ -50919,7 +51170,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getloggerdefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition",
+          "loggerDefinitionVersion"
+        ]
       },
       "GetResourceDefinition": {
         "aws_action_groups": [
@@ -50935,7 +51193,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getresourcedefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition"
+        ]
       },
       "GetResourceDefinitionVersion": {
         "aws_action_groups": [
@@ -50949,7 +51213,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getresourcedefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition",
+          "resourceDefinitionVersion"
+        ]
       },
       "GetServiceRoleForAccount": {
         "aws_action_groups": [
@@ -50963,7 +51234,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getserviceroleforaccount-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "GetSubscriptionDefinition": {
         "aws_action_groups": [
@@ -50979,7 +51252,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getsubscriptiondefinition-get.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition"
+        ]
       },
       "GetSubscriptionDefinitionVersion": {
         "aws_action_groups": [
@@ -50993,7 +51272,14 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/getsubscriptiondefinitionversion-get.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition",
+          "subscriptionDefinitionVersion"
+        ]
       },
       "ListBulkDeploymentDetailedReports": {
         "aws_action_groups": [
@@ -51010,7 +51296,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listbulkdeploymentdetailedreports-get.html"
-        }
+        },
+        "required_resource_types": [
+          "bulkDeployment"
+        ],
+        "resource_types": [
+          "bulkDeployment"
+        ]
       },
       "ListBulkDeployments": {
         "aws_action_groups": [
@@ -51025,7 +51317,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listbulkdeployments-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListConnectorDefinitionVersions": {
         "aws_action_groups": [
@@ -51042,7 +51336,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listconnectordefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition"
+        ]
       },
       "ListConnectorDefinitions": {
         "aws_action_groups": [
@@ -51057,7 +51357,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listconnectordefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListCoreDefinitionVersions": {
         "aws_action_groups": [
@@ -51074,7 +51376,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listcoredefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition"
+        ]
       },
       "ListCoreDefinitions": {
         "aws_action_groups": [
@@ -51089,7 +51397,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listcoredefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListDeployments": {
         "aws_action_groups": [
@@ -51106,7 +51416,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listdeployments-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "ListDeviceDefinitionVersions": {
         "aws_action_groups": [
@@ -51123,7 +51439,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listdevicedefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition"
+        ]
       },
       "ListDeviceDefinitions": {
         "aws_action_groups": [
@@ -51138,7 +51460,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listdevicedefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListFunctionDefinitionVersions": {
         "aws_action_groups": [
@@ -51155,7 +51479,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listfunctiondefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition"
+        ]
       },
       "ListFunctionDefinitions": {
         "aws_action_groups": [
@@ -51170,7 +51500,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listfunctiondefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListGroupCertificateAuthorities": {
         "aws_action_groups": [
@@ -51187,7 +51519,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listgroupcertificateauthorities-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "ListGroupVersions": {
         "aws_action_groups": [
@@ -51204,7 +51542,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listgroupversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "ListGroups": {
         "aws_action_groups": [
@@ -51219,7 +51563,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listgroups-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListLoggerDefinitionVersions": {
         "aws_action_groups": [
@@ -51236,7 +51582,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listloggerdefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition"
+        ]
       },
       "ListLoggerDefinitions": {
         "aws_action_groups": [
@@ -51251,7 +51603,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listloggerdefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListResourceDefinitionVersions": {
         "aws_action_groups": [
@@ -51268,7 +51622,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listresourcedefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition"
+        ]
       },
       "ListResourceDefinitions": {
         "aws_action_groups": [
@@ -51283,7 +51643,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listresourcedefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListSubscriptionDefinitionVersions": {
         "aws_action_groups": [
@@ -51300,7 +51662,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listsubscriptiondefinitionversions-get.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition"
+        ]
       },
       "ListSubscriptionDefinitions": {
         "aws_action_groups": [
@@ -51315,7 +51683,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listsubscriptiondefinitions-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "ListTagsForResource": {
         "aws_action_groups": [
@@ -51334,7 +51704,19 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/listtagsforresource-get.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": [
+          "bulkDeployment",
+          "connectorDefinition",
+          "coreDefinition",
+          "deviceDefinition",
+          "functionDefinition",
+          "group",
+          "loggerDefinition",
+          "resourceDefinition",
+          "subscriptionDefinition"
+        ]
       },
       "ResetDeployments": {
         "aws_action_groups": [
@@ -51349,7 +51731,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/resetdeployments-post.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "StartBulkDeployment": {
         "aws_action_groups": [
@@ -51365,7 +51753,9 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/startbulkdeployment-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": []
       },
       "StopBulkDeployment": {
         "aws_action_groups": [
@@ -51380,7 +51770,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/stopbulkdeployment-put.html"
-        }
+        },
+        "required_resource_types": [
+          "bulkDeployment"
+        ],
+        "resource_types": [
+          "bulkDeployment"
+        ]
       },
       "TagResource": {
         "aws_action_groups": [
@@ -51398,7 +51794,19 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/tagresource-post.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": [
+          "bulkDeployment",
+          "connectorDefinition",
+          "coreDefinition",
+          "deviceDefinition",
+          "functionDefinition",
+          "group",
+          "loggerDefinition",
+          "resourceDefinition",
+          "subscriptionDefinition"
+        ]
       },
       "UntagResource": {
         "aws_action_groups": [
@@ -51415,7 +51823,19 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/untagresource-delete.html"
-        }
+        },
+        "required_resource_types": [],
+        "resource_types": [
+          "bulkDeployment",
+          "connectorDefinition",
+          "coreDefinition",
+          "deviceDefinition",
+          "functionDefinition",
+          "group",
+          "loggerDefinition",
+          "resourceDefinition",
+          "subscriptionDefinition"
+        ]
       },
       "UpdateConnectivityInfo": {
         "aws_action_groups": [
@@ -51428,7 +51848,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updateconnectivityinfo-put.html"
-        }
+        },
+        "required_resource_types": [
+          "connectivityInfo"
+        ],
+        "resource_types": [
+          "connectivityInfo"
+        ]
       },
       "UpdateConnectorDefinition": {
         "aws_action_groups": [
@@ -51443,7 +51869,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updateconnectordefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "connectorDefinition"
+        ],
+        "resource_types": [
+          "connectorDefinition"
+        ]
       },
       "UpdateCoreDefinition": {
         "aws_action_groups": [
@@ -51458,7 +51890,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updatecoredefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "coreDefinition"
+        ],
+        "resource_types": [
+          "coreDefinition"
+        ]
       },
       "UpdateDeviceDefinition": {
         "aws_action_groups": [
@@ -51473,7 +51911,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updatedevicedefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "deviceDefinition"
+        ],
+        "resource_types": [
+          "deviceDefinition"
+        ]
       },
       "UpdateFunctionDefinition": {
         "aws_action_groups": [
@@ -51488,7 +51932,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updatefunctiondefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "functionDefinition"
+        ],
+        "resource_types": [
+          "functionDefinition"
+        ]
       },
       "UpdateGroup": {
         "aws_action_groups": [
@@ -51503,7 +51953,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updategroup-put.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "UpdateGroupCertificateConfiguration": {
         "aws_action_groups": [
@@ -51518,7 +51974,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updategroupcertificateconfiguration-put.html"
-        }
+        },
+        "required_resource_types": [
+          "group"
+        ],
+        "resource_types": [
+          "group"
+        ]
       },
       "UpdateLoggerDefinition": {
         "aws_action_groups": [
@@ -51533,7 +51995,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updateloggerdefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "loggerDefinition"
+        ],
+        "resource_types": [
+          "loggerDefinition"
+        ]
       },
       "UpdateResourceDefinition": {
         "aws_action_groups": [
@@ -51548,7 +52016,13 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updateresourcedefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "resourceDefinition"
+        ],
+        "resource_types": [
+          "resourceDefinition"
+        ]
       },
       "UpdateSubscriptionDefinition": {
         "aws_action_groups": [
@@ -51563,12 +52037,18 @@
           "api_doc": "",
           "doc_page": "",
           "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/updatesubscriptiondefinition-put.html"
-        }
+        },
+        "required_resource_types": [
+          "subscriptionDefinition"
+        ],
+        "resource_types": [
+          "subscriptionDefinition"
+        ]
       }
     },
     "arn_format": "arn:aws:greengrass:<region>:<account_ID>:/greengrass/<type>/<Id>",
     "arn_regex": "^arn:aws:greengrass:.+:[0-9]+:.+",
-    "description": "AWS Greengrass",
+    "description": "AWS IoT Greengrass",
     "docs": {
       "actions_doc_root": "https://docs.aws.amazon.com/greengrass/latest/apireference/",
       "api_detail_root": "",
@@ -51578,7 +52058,171 @@
       "concepts_doc_root": "https://docs.aws.amazon.com/greengrass/latest/developerguide/",
       "context_keys_doc_root": "https://docs.aws.amazon.com/IAM/latest/UserGuide/"
     },
-    "prefix": "greengrass"
+    "prefix": "greengrass",
+    "resource_types": {
+      "artifact": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/groups/${GroupId}/deployments/${DeploymentId}/artifacts/lambda/${ArtifactId}",
+        "condition_keys": []
+      },
+      "bulkDeployment": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/bulk/deployments/${BulkDeploymentId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/developerguide/bulk-deploy-cli.html"
+        }
+      },
+      "certificateAuthority": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/groups/${GroupId}/certificateauthorities/${CertificateAuthorityId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/developerguide/gg-sec.html"
+        }
+      },
+      "connectivityInfo": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/things/${ThingName}/connectivityInfo",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-connectivityinfo.html"
+        }
+      },
+      "connectorDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/connectors/${ConnectorDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-connector.html"
+        }
+      },
+      "connectorDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/connectors/${ConnectorDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-connectordefinitionversion.html"
+        }
+      },
+      "coreDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/cores/${CoreDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-core.html"
+        }
+      },
+      "coreDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/cores/${CoreDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-coredefinitionversion.html"
+        }
+      },
+      "deployment": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/groups/${GroupId}/deployments/${DeploymentId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-createdeploymentrequest.html"
+        }
+      },
+      "deviceDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/devices/${DeviceDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-device.html"
+        }
+      },
+      "deviceDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/devices/${DeviceDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-devicedefinitionversion.html"
+        }
+      },
+      "functionDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/functions/${FunctionDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-function.html"
+        }
+      },
+      "functionDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/functions/${FunctionDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-functiondefinitionversion.html"
+        }
+      },
+      "group": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/groups/${GroupId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-groupinformation.html"
+        }
+      },
+      "groupVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/groups/${GroupId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-groupversion.html"
+        }
+      },
+      "loggerDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/loggers/${LoggerDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-logger.html"
+        }
+      },
+      "loggerDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/loggers/${LoggerDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-loggerdefinitionversion.html"
+        }
+      },
+      "resourceDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/resources/${ResourceDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-resource.html"
+        }
+      },
+      "resourceDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/resources/${ResourceDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-resourcedefinitionversion.html"
+        }
+      },
+      "subscriptionDefinition": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/subscriptions/${SubscriptionDefinitionId}",
+        "condition_keys": [
+          "aws:ResourceTag/${TagKey}"
+        ],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-subscription.html"
+        }
+      },
+      "subscriptionDefinitionVersion": {
+        "arn_format": "arn:${Partition}:greengrass:${Region}:${Account}:/greengrass/definition/subscriptions/${SubscriptionDefinitionId}/versions/${VersionId}",
+        "condition_keys": [],
+        "docs": {
+          "doc_page_rel": "https://docs.aws.amazon.com/greengrass/latest/apireference/definitions-subscriptiondefinitionversion.html"
+        }
+      }
+    }
   },
   "GroundTruth Labeling": {
     "actions": {
