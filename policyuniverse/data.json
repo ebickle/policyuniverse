@@ -67134,7 +67134,7 @@
           "ReadOnly",
           "ReadWrite"
         ],
-        "calculated_action_group": "List",
+        "calculated_action_group": "Write",
         "condition_keys": [],
         "description": "Creates a new Amazon EC2 instance from an exported Amazon Lightsail snapshot",
         "docs": {
@@ -89099,9 +89099,10 @@
       },
       "GetBucketObjectLockConfiguration": {
         "aws_action_groups": [
+          "ReadOnly",
           "ReadWrite"
         ],
-        "calculated_action_group": "Write",
+        "calculated_action_group": "Read",
         "condition_keys": [
           "s3:authtype",
           "s3:signatureage",
@@ -89449,9 +89450,10 @@
       },
       "GetObjectLegalHold": {
         "aws_action_groups": [
+          "ReadOnly",
           "ReadWrite"
         ],
-        "calculated_action_group": "Write",
+        "calculated_action_group": "Read",
         "condition_keys": [
           "s3:authtype",
           "s3:signatureage",
@@ -89473,9 +89475,10 @@
       },
       "GetObjectRetention": {
         "aws_action_groups": [
+          "ReadOnly",
           "ReadWrite"
         ],
-        "calculated_action_group": "Write",
+        "calculated_action_group": "Read",
         "condition_keys": [
           "s3:authtype",
           "s3:signatureage",

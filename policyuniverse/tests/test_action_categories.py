@@ -52,10 +52,6 @@ class ActionGroupTestCase(unittest.TestCase):
             self.assertFalse(":get" in action)
 
         for action in list_only_actions:
-            if action in {
-                "lightsail:createcloudformationstack"
-            }:  # miscategorized AWS actions
-                continue
             self.assertFalse(":put" in action)
             self.assertFalse(":create" in action)
             self.assertFalse(":attach" in action)
